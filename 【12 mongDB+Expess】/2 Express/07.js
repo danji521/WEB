@@ -11,7 +11,6 @@ const home = require('./router/home');
 const admin = require('./router/admin');
 
 
-
 // 拦截所有路由
 app.use('/home', home);
 app.use('/admin', admin)
