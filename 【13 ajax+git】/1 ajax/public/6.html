@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<button id="btn">点我发送请求</button>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script>
+			// 获取按钮
+			var btn = document.getElementById('btn');
+			// 为按钮添加点击事件
+			btn.onclick = function() {
+				$.get('/server', 'name=zhangsan&age=30', (res) => {
+					console.log(res)
+				})
+			};
+		</script>
+	</body>
+</html>

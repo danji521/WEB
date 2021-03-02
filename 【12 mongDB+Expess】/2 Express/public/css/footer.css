@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 86px;
+  height: 433.5px;
+}
+.footer .footer-quick {
+  padding-top: 30px;
+  height: 345.5px;
+  color: #FFFFFF;
+  background-color: #49494b;
+}
+.footer .footer-quick-list1 {
+  float: left;
+  width: 213.5px;
+  height: 100%;
+}
+.footer .footer-quick-list1 img {
+  width: 102px;
+  height: 79px;
+}
+.footer .footer-quick-list1 li {
+  font-size: 13px;
+  line-height: 23px;
+}
+.footer .footer-quick-list1 li:nth-child(2) {
+  margin: 25px 0;
+  font-size: 15px;
+}
+.footer .footer-quick-list2 {
+  float: left;
+  margin-left: 78.5px;
+  width: 200px;
+  height: 100%;
+}
+.footer .footer-quick-list2 span {
+  display: block;
+}
+.footer .footer-quick-list2 a {
+  line-height: 37.5px;
+  font-size: 14px;
+  color: #FFFFFF !important;
+}
+.footer .footer-quick-list3 {
+  float: left;
+  margin-left: 96.5px;
+  width: 395px;
+  height: 100%;
+}
+.footer .footer-quick-list3 img {
+  width: 181.5px;
+  height: 184px;
+}
+.footer .footer-copyright {
+  height: 87.5px;
+  color: #FFFFFF;
+  font-size: 13px;
+  text-align: center;
+  background-color: #323232;
+}
+.footer .footer-copyright p {
+  position: relative;
+  top: 21.5px;
+}
+.footer .footer-copyright p:nth-child(2) {
+  position: relative;
+  top: 31.5px;
+}

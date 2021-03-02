@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			// 获取用户列表信息
+			$.get('/users', (res) => {
+				console.log(res)
+			})
+			// 获取id为1的用户信息
+			$.get('/users/1', (res) => {
+				console.log(res)
+			})
+			// // 删除ID为10的用户信息
+			$.ajax({
+				type: 'delete',
+				url: '/users/10',
+				success: (res) => {
+					console.log(res)
+				}
+			})
+			// 修改ID为10的用户信息
+			$.ajax({
+				type: 'put',
+				url: '/users/10',
+				success: (res) => {
+					console.log(res)
+				}
+			})
+
+		</script>
+	</body>
+</html>

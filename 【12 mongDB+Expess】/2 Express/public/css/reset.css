@@ -1,0 +1,71 @@
+/* 样式初始化 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p,
+h1,
+h3,
+h4,
+h4,
+h6k,
+h2 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	color: #505050 !important;
+	text-decoration: none !important;
+}
+
+input,
+button,
+img {
+	border: 0;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+/* 浮动 */
+.ft {
+	float: left;
+}
+
+.rg {
+	float: right;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+/* 版心 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+body {
+	background-color: #FFFFFF;
+}

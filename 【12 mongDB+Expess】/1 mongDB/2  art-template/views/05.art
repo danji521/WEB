@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>模板继承</title>
+	</head>
+	<body>
+		<!-- 使用继承子模板-->
+		<h2>模板继承</h2>
+		{{extend './common/layout.art'}}
+		<!-- 给子模板添加样式 -->
+		{{block 'link'}}
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		{{/block}}
+		<!-- 给子模板添加新的内容 -->
+		{{block 'content'}}
+		<h2>给子模板添加新的内容</h2>
+		<p>{{ msg }}</p>
+		{{/block}}
+	</body>
+</html>

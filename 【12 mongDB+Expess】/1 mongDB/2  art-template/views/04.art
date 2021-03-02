@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>子模板</title>
+	</head>
+	<body>
+		<h1>子模板</h1>
+		{{ include './common/header.art' }}
+		<div> {{ msg }} </div>
+		{{ include './common/footer.art' }}
+	</body>
+</html>

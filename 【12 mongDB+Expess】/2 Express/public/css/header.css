@@ -1,0 +1,42 @@
+.header {
+  height: 93px;
+  color: #505050;
+  font-size: 14px;
+  border-bottom: 2px solid #e7e7e7;
+}
+.header .logo img {
+  width: 110px;
+  height: 82.5px;
+}
+.header .nav {
+  display: block;
+  height: 100%;
+}
+.header .nav-hd {
+  padding-top: 18.5px;
+  text-align: right;
+}
+.header .nav-hd span {
+  font-size: 12px;
+}
+.header .nav-bd {
+  position: relative;
+  padding-top: 15px;
+}
+.header .nav-bd li {
+  position: relative;
+  margin-left: 49px;
+  float: left;
+}
+.header .nav-bd i::after {
+  position: absolute;
+  left: 65px;
+  top: 4px;
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-right: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  transform: rotate(45deg);
+}

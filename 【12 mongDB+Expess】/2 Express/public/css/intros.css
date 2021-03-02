@@ -1,0 +1,61 @@
+@import "header.css";
+@import "footer.css";
+.crumb {
+  height: 77.5px;
+  font-size: 15px;
+}
+.crumb h3 {
+  line-height: 77.5px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.crumb div {
+  line-height: 77.5px;
+}
+.honor {
+  padding-top: 46.5px;
+  border-top: 1px solid #eaeaea;
+}
+.honor .honor-news {
+  width: 882.5px;
+  text-align: center;
+}
+.honor .honor-news h3 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+}
+.honor .honor-news img:nth-child(1) {
+  margin-top: 66.5px;
+  margin-bottom: 46.5px;
+  width: 538.5px;
+}
+.honor .honor-news img:nth-child(2),
+.honor .honor-news img:nth-child(3),
+.honor .honor-news img:nth-child(4) {
+  margin-bottom: 50px;
+  width: 570.5px;
+}
+.honor .honor-news img:nth-child(5) {
+  width: 552.5px;
+}
+.honor .honor-news .imgs-50 {
+  margin: 0 auto;
+  width: 500px;
+}
+.honor .honor-news .imgs-50 img {
+  float: left;
+  width: 50%;
+}
+.honor .honor-enter {
+  width: 267.5px;
+  line-height: 40px;
+}
+.honor .honor-enter h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.honor .honor-enter li {
+  line-height: 41.5px;
+  border-bottom: 1px solid #eaeaea;
+}

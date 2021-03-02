@@ -1,0 +1,49 @@
+// 头部
+.header{
+	height: 186px/2;
+	color:#505050;
+	font-size: 14px;
+	border-bottom: 2px solid #e7e7e7;
+	.logo img{
+			width: 220px/2;
+			height: 165px/2;
+	}
+	.nav{
+		display: block;
+		height: 100%;
+	}
+	.nav-hd{
+		padding-top: 37px/2;
+		text-align: right;
+		span{
+			font-size: 12px;
+		}
+	}
+	.nav-bd{
+		position: relative;
+		padding-top: 30/2px;
+		li{
+			position: relative;
+			margin-left: 98px/2;
+			float: left;
+		}
+		i::after
+		{
+			position: absolute;
+			left: 65px;
+			top: 4px;
+			content: "";
+			width: 8px;
+			height: 8px;
+			display: block;
+			border-right: 1px solid #bebebe;
+			border-bottom: 1px solid #bebebe;
+			transform:rotate(45deg);
+		}
+	} 
+}
+
+
+
+
+
